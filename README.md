@@ -18,7 +18,14 @@ Ready to run in production? Please [check our deployment guides](https://hexdocs
   * Source: https://github.com/phoenixframework/phoenix
 
 
+# Cloning Git Repo from others
+In terminal, route to your folder -
+mix deps.get
+mix ecto.migrate
+mix phx.server
 
+
+# Staring fresh project
 Install Erlang/OTP 27+
 Install Elixir 1.7+
 Install Latest NodeJS LTS for node/nvm
